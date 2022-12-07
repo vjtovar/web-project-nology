@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  background-color: #fffffa;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+}
+nav a {
+  color: #0f054a;
+}
+
+.login-button {
+  border: 2px solid #0f054a;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.get-device {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.penguin-one,
+.penguin-three {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.penguin-two,
+.penguin-four {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footer {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 70px 0;
+  margin: auto;
+}
+.footer a {
+  padding: 20px;
+}

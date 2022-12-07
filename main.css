@@ -41,6 +41,34 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+.get-device img, .get-device h1, .get-device h2, .get-device h3, .get-device h4 {
+  padding: 30px 30px;
+}
+.get-device h1, .get-device h2 {
+  font-size: 40px;
+}
+.get-device h1, .get-device h3 {
+  color: #149dd8;
+}
+.get-device h3 {
+  font-size: 35px;
+  color: #149dd8;
+}
+.get-device h4 {
+  font-size: 25px;
+}
+
+.button {
+  border: 2px solid #0f054a;
+  background-color: #0f054a;
+  color: #fffafa;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px 90px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 60px;
+}
 
 .sign-up {
   border: 2px solid green;
@@ -69,7 +97,7 @@ nav a {
   width: 100%;
 }
 
-.footer {
+footer {
   border: 2px solid green;
   display: flex;
   flex-direction: column;
@@ -78,7 +106,11 @@ nav a {
   width: 100%;
   padding: 70px 0;
   margin: auto;
+  background-color: #ffffe0;
 }
-.footer a {
-  padding: 20px;
+footer a {
+  padding: 20px 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: #ffffe0;
 }

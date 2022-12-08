@@ -35,6 +35,18 @@ nav {
   padding: 20px 50px;
 }
 
+.button {
+  border: 2px solid #0f054a;
+  background-color: #0f054a;
+  color: #fffafa;
+  border-radius: 7px;
+  text-align: center;
+  padding: 20px 90px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 60px;
+}
+
 .get-device {
   display: flex;
   flex-direction: column;
@@ -62,18 +74,6 @@ nav {
 .get-device h4 {
   font-size: 25px;
   font-weight: lighter;
-}
-
-.button {
-  border: 2px solid #0f054a;
-  background-color: #0f054a;
-  color: #fffafa;
-  border-radius: 7px;
-  text-align: center;
-  padding: 20px 90px;
-  font-weight: bolder;
-  font-size: 30px;
-  margin: 60px;
 }
 
 .sign-up {

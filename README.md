@@ -4,7 +4,7 @@
 ## Project: Intro to Web
 
 
-# Overview
+### Overview
 Well done on completing your first couple of modules as part of nology! Hopefully you are
 excited to start building things, and are feeling more confident with the web technologies you
 have been taught.
@@ -17,7 +17,7 @@ but also get as close as possible to the image we have provided.
 One thing to note is that this image is representative of a mobile screen, so you should write
 your styles to reflect this.
 
-# Specifications
+### Specifications
 1. At least 10 commits: Regular commits are an important part of being a developer. It
 allows you to check-point your work, and if need be, return back to older versions of your
 code.

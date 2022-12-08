@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: #333333;
+  color: #0f054a;
   background-color: #fffffa;
 }
 
@@ -14,7 +14,6 @@ a:visited {
 }
 
 nav {
-  border: 2px solid green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,8 +22,9 @@ nav {
   font-size: 30px;
   font-weight: bold;
 }
-nav a {
-  color: #0f054a;
+
+.logo {
+  font-size: 100px;
 }
 
 .login-button {
@@ -35,16 +35,21 @@ nav a {
 }
 
 .get-device {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .get-device img, .get-device h1, .get-device h2, .get-device h3, .get-device h4 {
   padding: 30px 30px;
 }
-.get-device h1, .get-device h2 {
+.get-device h1 {
+  font-family: "Nunito", cursive;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.get-device h2 {
   font-size: 40px;
 }
 .get-device h1, .get-device h3 {
@@ -52,10 +57,10 @@ nav a {
 }
 .get-device h3 {
   font-size: 35px;
-  color: #149dd8;
 }
 .get-device h4 {
   font-size: 25px;
+  font-weight: lighter;
 }
 
 .button {
@@ -71,34 +76,49 @@ nav a {
 }
 
 .sign-up {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px 20px;
+}
+.sign-up h2 {
+  font-size: 37px;
+  font-weight: normal;
+}
+.sign-up h3 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .penguin-one,
 .penguin-three {
-  border: 2px solid green;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  padding: 40px 40px;
 }
 
 .penguin-two,
 .penguin-four {
-  border: 2px solid green;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  padding: 40px 40px;
 }
 
 footer {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -110,7 +130,7 @@ footer {
 }
 footer a {
   padding: 20px 20px;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 30px;
   background-color: #ffffe0;
 }
